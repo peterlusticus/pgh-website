@@ -68,8 +68,8 @@ const Login = (props: any) => {
                                 </div>
                             </div>
                             <div className="flex flex-col space-y-2">
-                                <button type="submit" id="btnLogin" className='button-primary'>
-                                    Anmelden &rarr;
+                                <button type="submit" id="btnLogin" className='ml-2 text-white px-4 py-2 text-base font-medium rounded-none bg-red-900 hover:bg-red-700 transition'>
+                                    Anmelden
                                 </button>
                                 {props.notShowRegister ?
                                     <div></div>

@@ -14,10 +14,13 @@ const LoginPage = () => {
       </Head>
 
       <Container>
-        <div className="flex flex-col text-center">
-          <h1 className="text-3xl mb-10">Login & Registrieren</h1>
-          <Login site={true} />
+        <div className="flex justify-center">
+          <div className="text-center px-48 py-8 border-solid border-[#ab9863ff] border-2 bg-[#e3ca88ff] shadow-2xl">
+            <h1 className="text-3xl mb-10">Login und Registrieren</h1>
+            <Login site={true} />
+          </div>
         </div>
+
       </Container>
     </div>
   );
