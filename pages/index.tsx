@@ -9,7 +9,7 @@ import { MapsSection } from "../components/index/maps";
 
 export default function Index() {
   const meta = {
-    title: 'PGH Jena',
+    title: 'PGH Lichtstadt - Jena',
     description: `Test`,
   };
 

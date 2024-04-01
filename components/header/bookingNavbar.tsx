@@ -25,7 +25,7 @@ export default function BookingNavbar() {
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/" className='flex space-x-2'>
               <Image src="/logo.svg" alt="" width={32} height={32} />
-              <div className='text-xl font-bold'>PGH JENA</div>
+              <div className='text-xl font-bold'>PGH Lichtstadt</div>
             </Link>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
