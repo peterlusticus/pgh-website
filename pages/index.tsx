@@ -32,7 +32,7 @@ export default function Index() {
         >
           Wir verwenden ausschließlich funktionale Cookies, sodass Ihre Anmeldedaten gespeichert werden können und beim Neuladen der Seite keine erneute Anmeldung benötigt wird.{" "}
         </CookieConsent>
-        <div className="bg-inherit" style={{marginTop: "23rem", marginBottom: "7rem"}}>
+        <div className="bg-inherit" style={{marginTop: "22rem", marginBottom: "7rem"}}>
           <HeroSection />
         </div>
         <FaqSection />
