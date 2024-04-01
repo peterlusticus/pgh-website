@@ -10,10 +10,10 @@ export default function HeroSection() {
     <div className="isolate z-0">
       <main>
         <div className="px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl">
+          <div className="mx-auto max-w-4xl">
             <div>
               <div>
-                <div className="text-3xl font-bold tracking-tight sm:text-center sm:text-7xl sm:text-nowrap text-green-100">
+                <div className="text-3xl font-bold tracking-tight sm:text-center sm:text-7xl text-green-100">
                   Produktionsgenossenschaft Hanf - Stadt Jena
                 </div>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">

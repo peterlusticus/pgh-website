@@ -2,7 +2,7 @@ export function FaqSection() {
 
     return (
         <section className="bg-inherit">
-            <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div className="mx-auto max-w-screen-xl sm:py-6 lg:px-6">
                 <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-200 dark:text-white">Frequently asked questions</h2>
                 <div className="grid pt-2 text-left md:gap-16 dark:border-gray-700 md:grid-cols-2">
                     <div>
