@@ -20,7 +20,7 @@ export default function BookingNavbar() {
 
   return (
     <Popover className="navbar">
-      <div className="mx-auto px-4 sm:px-6 max-w-7xl">
+      <div className="mx-auto max-w-7xl">
         <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/" className='flex space-x-2'>

@@ -3,7 +3,7 @@ import Router from "next/router"
 export default function HeroSection() {
 
   const handleClick = () => {
-    Router.push("/bookings/new")
+    Router.push("/login")
   }
 
   return (

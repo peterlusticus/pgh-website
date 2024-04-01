@@ -11,7 +11,7 @@ export default function BookingContainer(props: { [x: string]: any; children: an
                     {children}
                 </div>
             </main>
-            <p className="mt-8 text-center text-base text-gray-400">&copy; 2023 Richard Peters</p>
+            <p className="mt-8 text-center text-base text-gray-400">&copy; 2024 Richard Peters</p>
         </body>
     );
 }
