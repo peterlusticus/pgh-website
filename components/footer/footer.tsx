@@ -20,6 +20,8 @@ const navigation = {
             ))}
           </nav>
           <p className="mt-8 text-center text-base text-gray-300">&copy; 2024 Richard Peters</p>
+          <a rel="me" href="https://mastodon.social/@PGH_Lichtstadt">Mastodon</a>
+
         </div>
       </footer>
     )
