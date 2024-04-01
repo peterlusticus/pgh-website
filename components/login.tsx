@@ -41,7 +41,7 @@ const Login = (props: any) => {
         }
     };
     return (
-        <div className="flex w-full justify-center">
+        <div className="flex flex-col space-y-2 px-6">
             {login ?
                 <FormProvider {...methods}>
                     <form action="" onSubmit={handleSubmit(onSubmit)}>
@@ -93,7 +93,7 @@ const Login = (props: any) => {
 
                 :
 
-                <div className="flex flex-col space-y-2">
+                <div className="flex flex-col space-y-2 px-4">
                     <SignupPage site={props.site} />
                     {login ? "" : <button className="button-secondary w-full" onClick={updateSignUp}>Login &rarr;</button>}
                 </div>}

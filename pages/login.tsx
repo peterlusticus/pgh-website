@@ -15,8 +15,8 @@ const LoginPage = () => {
 
       <Container>
         <div className="flex justify-center">
-          <div className="text-center px-48 py-8 border-solid border-[#ab9863ff] border-2 bg-[#e3ca88ff] shadow-2xl">
-            <h1 className="text-3xl mb-10">Login und Registrieren</h1>
+          <div className="text-center mx-2 px-2 md:px-48 py-8 border-solid border-[#ab9863ff] border-2 bg-[#e3ca88ff] shadow-2xl">
+            <h1 className="text-3xl md:text-3xl mb-10">Mein Konto</h1>
             <Login site={true} />
           </div>
         </div>

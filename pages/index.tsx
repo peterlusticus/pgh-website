@@ -6,6 +6,8 @@ import { FaqSection } from "../components/index/faq";
 import { PricingSection } from "../components/index/pricing";
 import { ContactSection } from "../components/index/contact";
 import { MapsSection } from "../components/index/maps";
+import { StatsSection } from "../components/index/stats";
+import { ImageSection } from "../components/index/images";
 
 export default function Index() {
   const meta = {
@@ -32,15 +34,17 @@ export default function Index() {
         >
           Wir verwenden ausschließlich funktionale Cookies, sodass Ihre Anmeldedaten gespeichert werden können und beim Neuladen der Seite keine erneute Anmeldung benötigt wird.{" "}
         </CookieConsent>
-        <div className="bg-inherit" style={{marginTop: "22rem", marginBottom: "7rem"}}>
+        <div className="bg-inherit" style={{ marginTop: "22rem", marginBottom: "7rem" }}>
           <HeroSection />
         </div>
         <FaqSection />
-      <PricingSection />
-      <ContactSection />
-      <MapsSection />
+        <PricingSection />
+        <ImageSection />
+        <StatsSection />
+        <ContactSection />
+        <MapsSection />
       </Container>
-      
+
     </div>
   )
 }
